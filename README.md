@@ -1,8 +1,32 @@
-# resume-skill
+<p align="center">
+  <a href="https://github.com/wangzichang224-design/One-Job-One-Resume">🔗</a>
+</p>
 
-JD 截图进来，匹配你的本地资料库，生成一份适合岗位的中文简历。
+<h1 align="center">一岗一简历</h1>
 
-默认 PDF 必须压缩成 1 页。内容过多时，系统会优先保留最匹配 JD 的经历和结果数据，主动删掉低相关内容。
+<hr>
+
+<br>
+
+<p align="center">
+  <img src="./assets/offer-energy.jpg" alt="一岗一简历，更容易赢 offer" width="520">
+</p>
+
+<h2 align="center">“一岗一简历，更容易赢 offer”</h2>
+
+<p align="center">
+  <strong>把 JD 截图丢给 Agent，自动匹配你的本地资料库，生成一页定制中文简历。</strong>
+</p>
+
+<br>
+
+<hr>
+
+<p align="center">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-9b8c1a?style=for-the-badge">
+  <img alt="Claude Code" src="https://img.shields.io/badge/Claude%20Code-Skill-4b4b4b?style=for-the-badge">
+  <img alt="Codex" src="https://img.shields.io/badge/Codex-Skill-7c3aed?style=for-the-badge">
+</p>
 
 ## 3 步开始
 
