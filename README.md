@@ -9,10 +9,10 @@
 <br>
 
 <p align="center">
-  <img src="./assets/offer-energy.jpg" alt="一岗一简历，更容易赢 offer" width="520">
+  <img src="./assets/offer-energy.png" alt="一岗一简历，马上拿 offer" width="520">
 </p>
 
-<h2 align="center">“一岗一简历，更容易赢 offer”</h2>
+<h2 align="center">“一岗一简历，马上拿 offer”</h2>
 
 <p align="center">
   <strong>把 JD 截图丢给 Agent，自动匹配你的本地资料库，生成一页定制中文简历。</strong>
