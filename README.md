@@ -32,7 +32,23 @@
 
 ### 1. 安装 Skill
 
-把这个链接https://github.com/wangzichang224-design/One-Job-One-Resume/  丢给codingagent，让agent安装就好
+把这个链接发给 Codex / Claude Code / 其他 coding agent：
+
+```text
+https://github.com/wangzichang224-design/One-Job-One-Resume
+```
+
+然后对 Agent 说：
+
+```text
+请把这个仓库安装成 skill。
+如果需要本地目录名，请命名为 resume-skill。
+安装后请运行：
+python -m pip install -e .
+python -m resume_skill init
+```
+
+仓库名不需要带 `.skill`，真正的 skill 名已经写在 `SKILL.md` 里：`resume-skill`。
 
 ### 2. 放入你的资料、照片、模板
 (不懂的直接把自己简历资料包和照片发给agent让他搞定）
@@ -49,7 +65,6 @@ python -m resume_skill init
 - `data/my_profile.local.json`：姓名、电话、邮箱等
 - `data/photo.png`：证件照或头像
 - `templates/<模板名>/`：可选，自定义简历模板
-- 
 
 ### 3. 截图 JD，让 Agent 生成
 
