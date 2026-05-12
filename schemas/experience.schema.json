@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Experience",
+  "type": "object",
+  "required": ["id", "category", "title", "star_details"],
+  "properties": {
+    "id": {"type": "string"},
+    "category": {
+      "type": "string",
+      "enum": ["education", "project", "internship", "work", "certification", "skill"]
+    },
+    "title": {"type": "string"},
+    "subtitle": {"type": "string"},
+    "date_start": {"type": "string"},
+    "date_end": {"type": ["string", "null"]},
+    "location": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "star_details": {"type": "object"},
+    "metrics": {"type": "array"},
+    "evidence_level": {"type": "string"},
+    "needs_verification": {"type": "boolean"},
+    "target_roles": {"type": "array", "items": {"type": "string"}},
+    "highlights": {"type": "array", "items": {"type": "string"}}
+  }
+}

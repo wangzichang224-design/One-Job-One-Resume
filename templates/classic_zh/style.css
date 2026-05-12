@@ -1,0 +1,204 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f2f2f2;
+  color: #111;
+  font-family: "Times New Roman", "SimSun", "Songti SC", "Noto Serif CJK SC", serif;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.page {
+  width: 210mm;
+  height: 297mm;
+  margin: 0 auto;
+  padding: 9mm 12mm 8mm;
+  background: #fff;
+}
+
+.resume-header {
+  display: grid;
+  grid-template-columns: 1fr 22mm;
+  gap: 7mm;
+  align-items: start;
+  min-height: 24mm;
+  margin-bottom: 2mm;
+}
+
+h1 {
+  margin: 0 0 1.2mm;
+  font-size: 20px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.target-title {
+  margin-bottom: 2mm;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.contact {
+  display: grid;
+  gap: 0.5mm;
+  font-size: 11px;
+}
+
+.photo-box {
+  width: 22mm;
+  height: 27mm;
+  justify-self: end;
+  overflow: hidden;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.resume-section {
+  margin-top: 2.7mm;
+}
+
+.resume-section h2 {
+  margin: 0 0 1.1mm;
+  padding-bottom: 0.6mm;
+  border-bottom: 1px solid #222;
+  font-size: 15.5px;
+  line-height: 1.1;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.entry {
+  margin: 0 0 1.8mm;
+  break-inside: avoid;
+}
+
+.entry-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 5mm;
+  align-items: baseline;
+  font-size: 12px;
+  line-height: 1.2;
+}
+
+.entry-head strong {
+  font-size: 12.5px;
+}
+
+.grid-head {
+  display: grid;
+  grid-template-columns: 1.05fr 1.55fr auto;
+  gap: 4mm;
+}
+
+.entry-meta {
+  margin-top: 0.6mm;
+  font-weight: 700;
+}
+
+ul {
+  margin: 0.7mm 0 0 4.5mm;
+  padding: 0;
+}
+
+li {
+  margin: 0.28mm 0;
+  padding-left: 0.5mm;
+}
+
+li::marker {
+  font-size: 0.8em;
+}
+
+.skill .entry-head,
+.certification .entry-head {
+  display: block;
+}
+
+.density-full {
+  padding: 10mm 12mm 9mm;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.density-one-page {
+  padding: 8mm 11mm 7mm;
+  font-size: 11.8px;
+  line-height: 1.22;
+}
+
+.density-tight {
+  padding: 7mm 10mm 6mm;
+  font-size: 10.7px;
+  line-height: 1.17;
+}
+
+.density-ultra,
+.density-minimum {
+  padding: 6mm 9mm 5mm;
+  font-size: 10.2px;
+  line-height: 1.13;
+}
+
+.density-tight .resume-header,
+.density-ultra .resume-header,
+.density-minimum .resume-header {
+  min-height: 21mm;
+  margin-bottom: 1mm;
+  grid-template-columns: 1fr 19mm;
+}
+
+.density-tight .photo-box,
+.density-ultra .photo-box,
+.density-minimum .photo-box {
+  width: 19mm;
+  height: 24mm;
+}
+
+.density-tight .resume-section,
+.density-ultra .resume-section,
+.density-minimum .resume-section {
+  margin-top: 2mm;
+}
+
+.density-tight .entry,
+.density-ultra .entry,
+.density-minimum .entry {
+  margin-bottom: 1.25mm;
+}
+
+.density-ultra li,
+.density-minimum li {
+  margin: 0.12mm 0;
+}
+
+@media screen {
+  .page {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.16);
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .page {
+    box-shadow: none;
+    margin: 0;
+  }
+}

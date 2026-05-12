@@ -1,0 +1,51 @@
+[
+  {
+    "id": "edu_sample_master",
+    "category": "education",
+    "title": "示例大学",
+    "subtitle": "计算机科学与技术 硕士",
+    "date_start": "2024-09",
+    "date_end": "2027-06",
+    "location": "重庆",
+    "tags": ["Python", "AI", "NLP", "数据分析"],
+    "star_details": {
+      "result": "GPA: 3.69/4.0，研究方向：人工智能与数据分析。"
+    },
+    "evidence_level": "verified",
+    "needs_verification": false,
+    "target_roles": ["*"]
+  },
+  {
+    "id": "project_sample_agent",
+    "category": "project",
+    "title": "MiniClaudeCode：面向 Harness Engineering 的 Coding Agent CLI",
+    "subtitle": "独立开发者",
+    "date_start": "2025-09",
+    "date_end": "2026-01",
+    "location": "上海",
+    "tags": ["Python", "Agent", "LLM", "CLI", "OpenAI API", "Anthropic API"],
+    "star_details": {
+      "situation": "面向长程编码任务，需要一个可控、可审计、上下文可持续的本地 Agent。",
+      "action": "设计工具调用、上下文压缩、权限控制和多轮任务执行机制，完成 CLI 交互与系统提示词拆解。",
+      "result": "实现可稳定执行的本地 Coding Agent 原型，支持长任务拆解、工具调用和过程回溯。"
+    },
+    "metrics": [
+      {"metric": "内置工具", "value": "13 个", "verified": true}
+    ],
+    "evidence_level": "verified",
+    "needs_verification": false,
+    "target_roles": ["AI产品经理", "AI产品实习生", "Agent工程师"]
+  },
+  {
+    "id": "skill_sample",
+    "category": "skill",
+    "title": "专业技能",
+    "tags": ["Python", "SQL", "Excel", "LLM", "Agent", "Docker", "Git"],
+    "star_details": {
+      "result": "熟练使用 Python、SQL、Excel、Git、Docker；理解 LLM、RAG、Tool Call、Agent 工作流。"
+    },
+    "evidence_level": "verified",
+    "needs_verification": false,
+    "target_roles": ["*"]
+  }
+]

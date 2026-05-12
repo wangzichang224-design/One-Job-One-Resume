@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ name }} - {{ title }}</title>
+  <style>
+{{ style_css }}
+  </style>
+</head>
+<body>
+  <main class="page {{ density_class }}">
+    <header class="resume-header">
+      <div class="identity">
+        <h1>{{ name }}</h1>
+        <div class="target-title">{{ title }}</div>
+        <div class="contact">
+          {{ contact_html }}
+        </div>
+      </div>
+      <div class="photo-box">
+        {{ photo_html }}
+      </div>
+    </header>
+    {{ sections_html }}
+  </main>
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "姓名",
+  "title": "求职意向 / 目标岗位",
+  "phone": "+86 13800000000",
+  "email": "name@example.com",
+  "location": "上海",
+  "photo": "data/photo.png",
+  "links": []
+}
